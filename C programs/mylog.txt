@@ -1,0 +1,14 @@
+ERROR:root:there is an error in this program
+CRITICAL:root:there is an problem in the design
+ERROR:root:there is an error in this program
+CRITICAL:root:there is an problem in the design
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "h.py", line 7, in <module>
+    c=a/b
+ZeroDivisionError: division by zero
+ERROR:root:invalid literal for int() with base 10: 'x'
+Traceback (most recent call last):
+  File "h.py", line 6, in <module>
+    b=int(input("enter another number :"))
+ValueError: invalid literal for int() with base 10: 'x'
